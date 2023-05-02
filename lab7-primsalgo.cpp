@@ -1,16 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int INF = 1e9; // Set infinite distance as 10^9
+const int INF = 1e9; 
 
 int main()
 {
-    int n, m; // n = number of vertices, m = number of edges
+    int n, m; 
     cin >> n >> m;
 
-    vector<vector<pair<int,int>>> adj(n); // adjacency list to store graph
+    vector<vector<pair<int,int>>> adj(n);
 
-    for(int i = 0; i < m; i++) // input the edges and weights
+    for(int i = 0; i < m; i++)
     {
         int u, v, w;
         cin >> u >> v >> w;
